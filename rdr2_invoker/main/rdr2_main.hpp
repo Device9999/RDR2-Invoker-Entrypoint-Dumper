@@ -6,7 +6,7 @@
 #include <algorithm>
 #include <vector>
 #include <Psapi.h>
-#include "../invoker/hash_to_adress_table.hpp"
+#include "../invoker/hash_to_address_table.hpp"
 #include "../invoker/invoker.hpp"
 #include "../invoker/natives.hpp"
 #include "../libs/Minhook/include/MinHook.h"
