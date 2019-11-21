@@ -1458,7 +1458,8 @@ namespace GRAPHICS
 	static void _0xCC3B787E73E64160(Any p0, Any p1, Any p2, Any p3, Any p4) { invoke<Void>(0xCC3B787E73E64160, p0, p1, p2, p3, p4); } // 0xCC3B787E73E64160 b1207
 	static void _0x171C18E994C1A395(Any p0, Any p1, Any p2, Any p3, Any p4) { invoke<Void>(0x171C18E994C1A395, p0, p1, p2, p3, p4); } // 0x171C18E994C1A395 b1207
 	static void DELETE_CHECKPOINT(int checkpoint) { invoke<Void>(0x0DED5B0C8EBAAE12, checkpoint); } // 0x0DED5B0C8EBAAE12 b1207
-	static void DRAW_RECT(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9) { invoke<Void>(0x405224591DF02025, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9); } // 0x405224591DF02025 b1207
+	//                    float x, float y, float width, float height, int r, int g, int b, int a
+	static void DRAW_RECT(float x, float y, float width, float height, int r, int g, int b, int a, Any p8, Any p9) { invoke<Void>(0x405224591DF02025, x, y, width, height, r, g, b, a, p8, p9); } // 0x405224591DF02025 b1207
 	static void SET_SCRIPT_GFX_DRAW_BEHIND_PAUSEMENU(BOOL toggle) { invoke<Void>(0x906B86E6D7896B9E, toggle); } // 0x906B86E6D7896B9E b1207
 	static void SET_SCRIPT_GFX_DRAW_ORDER(int drawOrder) { invoke<Void>(0xCFCC78391C8B3814, drawOrder); } // 0xCFCC78391C8B3814 b1207
 	static void DRAW_SPRITE(const char* textureDict, const char* textureName, float screenX, float screenY, float width, float height, float heading, int red, int green, int blue, int alpha, BOOL p11) { invoke<Void>(0xC9884ECADE94CB34, textureDict, textureName, screenX, screenY, width, height, heading, red, green, blue, alpha, p11); } // 0xC9884ECADE94CB34 b1207

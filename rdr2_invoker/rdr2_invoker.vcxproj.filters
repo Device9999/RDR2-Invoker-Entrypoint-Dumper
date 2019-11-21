@@ -31,6 +31,15 @@
     <Filter Include="Source Files\main">
       <UniqueIdentifier>{55fcf9ea-96f6-4dfb-b363-89b128142955}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\features">
+      <UniqueIdentifier>{70d4e1ec-61d7-4233-81da-f5e80f246ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rendering">
+      <UniqueIdentifier>{85a0b39b-fa23-4f59-94b3-b945717351c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features\esp">
+      <UniqueIdentifier>{8bf63077-76c9-4563-aca1-99daab306fec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -53,6 +62,12 @@
     </ClCompile>
     <ClCompile Include="main\rdr2_main.cpp">
       <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="features\esp\esp.cpp">
+      <Filter>Source Files\features\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\renderer.cpp">
+      <Filter>Source Files\rendering</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +109,12 @@
     </ClInclude>
     <ClInclude Include="main\rdr2_main.hpp">
       <Filter>Source Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="features\esp\esp.hpp">
+      <Filter>Source Files\features\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\renderer.hpp">
+      <Filter>Source Files\rendering</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

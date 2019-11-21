@@ -28,7 +28,7 @@ extern "C" {
 				return;
 			}
 			static auto baseaddr = (uintptr_t)(GetModuleHandleA(0));
-			file << "static std::vector<nativehash_to_address_t> nativehash_to_adress_table = {" << std::endl;
+			file << "static std::map<uintptr_t, uintptr_t> nativehash_to_adress_table = {" << std::endl;
 			for (auto native : native_dump_list) {
 				auto addr = (uint64_t)Native::GetHandler(native.hash);
 				file << "{" << std::hex << "0x" << native.hash << ", " << std::hex << "0x" << (addr - baseaddr) << " }, // " << native.name.c_str() << std::endl;

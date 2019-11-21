@@ -164,14 +164,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="features\esp\esp.cpp" />
     <ClCompile Include="libs\Minhook\src\buffer.c" />
     <ClCompile Include="libs\Minhook\src\HDE\hde32.c" />
     <ClCompile Include="libs\Minhook\src\HDE\hde64.c" />
     <ClCompile Include="libs\Minhook\src\hook.c" />
     <ClCompile Include="libs\Minhook\src\trampoline.c" />
     <ClCompile Include="main\rdr2_main.cpp" />
+    <ClCompile Include="renderer\renderer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="features\esp\esp.hpp" />
     <ClInclude Include="invoker\hash_to_adress_table.hpp" />
     <ClInclude Include="invoker\invoker.hpp" />
     <ClInclude Include="invoker\natives.hpp" />
@@ -185,6 +188,7 @@
     <ClInclude Include="libs\Minhook\src\trampoline.h" />
     <ClInclude Include="main\rdr2_main.hpp" />
     <ClInclude Include="memory\memory.hpp" />
+    <ClInclude Include="renderer\renderer.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
