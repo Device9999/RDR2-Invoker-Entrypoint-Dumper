@@ -1,7 +1,7 @@
 #pragma once
 //#include "../main/rdr2_main.hpp"
 
-static std::map<uintptr_t, uint32_t> nativehash_to_adress_table = {
+static std::map<uintptr_t, uint32_t> nativehash_to_address_table = {
 {0x4ede34fbadd967a6, 0x2a17b94 }, // WAIT
 {0xe81651ad79516e48, 0x2a14210 }, // START_NEW_SCRIPT
 {0xb8ba7f44df1575e1, 0x2a14248 }, // START_NEW_SCRIPT_WITH_ARGS

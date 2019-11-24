@@ -138,8 +138,8 @@ static Retn invoke_(Handler fn, Args... args)
 
 static Handler get_handler(uintptr_t hash_) {
 	static auto base_address = (uintptr_t)GetModuleHandleA(0);
-	auto it = nativehash_to_adress_table.find(hash_);
-	if (it != nativehash_to_adress_table.end()) {
+	auto it = nativehash_to_address_table.find(hash_);
+	if (it != nativehash_to_address_table.end()) {
 		if (it->first == hash_)
 			return (Handler)(base_address + it->second);
 	}
