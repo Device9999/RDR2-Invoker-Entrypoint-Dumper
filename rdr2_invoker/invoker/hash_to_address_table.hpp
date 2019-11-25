@@ -2041,4 +2041,7 @@ static std::map<uintptr_t, uintptr_t> nativehash_to_address_table = {
 {0x76a18844e743bf91, 0x10a5964 }, // HAS_WEAPON_GOT_WEAPON_COMPONENT
 {0xd79334a4bb99bad1, 0xfd9214 }, // DRAW_TEXT_
 {0x29b30d07c3f7873b, 0xfda890 }, // _GET_WAYPOINT_COORDS
+{0x675680d089bfa21f, 0xf85940 }, // SET_PED_STAMINA
+{0x283978a15512b2fe, 0xf8b8f4 }, // SET_PED_VISIBLE
+{0x50a41ad966910f03, 0xfde790 }, // _SET_TEXT_COLOR
 };
