@@ -7,7 +7,7 @@
 #include <vector>
 #include <Psapi.h>
 #include <map>
-#include "../invoker/hash_to_adress_table.hpp"
+#include "../invoker/hash_to_address_table.hpp"
 #include "../invoker/invoker.hpp"
 #include "../invoker/natives.hpp"
 #include "../renderer/renderer.hpp"

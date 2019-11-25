@@ -95,7 +95,7 @@
     <ClInclude Include="libs\Minhook\include\MinHook.h">
       <Filter>Source Files\libs\hooking</Filter>
     </ClInclude>
-    <ClInclude Include="invoker\hash_to_adress_table.hpp">
+    <ClInclude Include="invoker\hash_to_address_table.hpp">
       <Filter>Source Files\invoker</Filter>
     </ClInclude>
     <ClInclude Include="invoker\invoker.hpp">

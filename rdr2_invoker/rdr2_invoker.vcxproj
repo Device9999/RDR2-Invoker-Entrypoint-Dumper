@@ -175,7 +175,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="features\esp\esp.hpp" />
-    <ClInclude Include="invoker\hash_to_adress_table.hpp" />
+    <ClInclude Include="invoker\hash_to_address_table.hpp" />
     <ClInclude Include="invoker\invoker.hpp" />
     <ClInclude Include="invoker\natives.hpp" />
     <ClInclude Include="libs\Minhook\include\MinHook.h" />
